@@ -1,19 +1,19 @@
 public void setup()
 {
-  size(500, 500);
+  size(600, 600);
   background(152, 209, 172);
   noFill();
   stroke(187, 151, 250);
   strokeWeight(4);
-  triangle(50, 50, 250, 450, 450, 50);
+  triangle(60, 60, 300, 540, 540, 60);
 }
 public void draw()
 {
-  sierpinski(10, 10, 50);
+  sierpinski(30, 470, 100);
 }
 public void mousePressed()//optional
 {
-  sierpinski(mouseX, mouseY, 30);
+  sierpinski(mouseX, mouseY, 40);
 }
 public void sierpinski(int x, int y, int len) 
 {
