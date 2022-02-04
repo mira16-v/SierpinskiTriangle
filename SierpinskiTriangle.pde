@@ -1,11 +1,12 @@
 public void setup()
 {
   size(600, 600);
-  background(152, 209, 172);
+  background(34, 103, 175);
   noFill();
-  stroke(187, 151, 250);
+  stroke(175, 34, 34);
   strokeWeight(4);
   triangle(60, 60, 300, 540, 540, 60);
+  triangle(180, 300, 420, 300, 300, 60);
 }
 public void draw()
 {
